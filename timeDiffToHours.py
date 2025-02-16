@@ -3,7 +3,8 @@
 #and converts the hour:minute difference to hour.tenths of an hour
 #then multiplies it by hourly rate to do a timesheet calcuation
 #how to use example
-#python3 timeDiffToHours.py 10:48am 12:30pm 27
+#python3 timeDiffToHours.py 27 10:48am 12:30pm
+#<interpreter> <program.py> <hourlyRate> <start time> <end time>
 #returns number of inputs
 #the parsed hour, minutes, am/pm
 #the calcuated hour minute difference
@@ -12,9 +13,6 @@
 
 import sys #for reading command line arguments
 
-#left over unused stuff from example on how to read command line arguments
-def my_sum(*args):
-	return sum(args)
 
 accumTime = 0
 accumDollars = 0

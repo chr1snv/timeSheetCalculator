@@ -1,6 +1,8 @@
 Getting paid hourly though not getting paid time to generate time sheets or invoices?<br/>
 is converting between hours and minutes and am / pm complex?<br/>
 wish there was a well explained method to do it quickly?<br/>
+or better yet an inspectable infallable machine to do it on command automatically?<br/>
+too busy with work to deal with this nonsense?<br/>
 Then look no further! command line time sheet calculator is here!<br/>
 <br/>
 it converts am/pm time to 24 hour format<br/>
@@ -32,3 +34,4 @@ total:<br/>
 Simple, command line based. Less than 50 lines of commented code<br/>
 No Frills, testable, verifiable solution.<br/>
 Time Sheet Calculator .py<br/>
+It doesn't print money, though by reducing worry about calculations it practically does.<br/>
