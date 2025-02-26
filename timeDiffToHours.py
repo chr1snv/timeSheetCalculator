@@ -34,7 +34,7 @@ for i in range(0,numTimePairs):
 
 	#if the start time is before noon and the end time after noon
 	if( ( hM1[2] == 'AM' or hM1[2] == 'am' ) and 
-		( (hM2[2] == 'PM' or hM2[2] == 'pm') and hM2[0] < 12 ) ):
+		( (hM2[2] == 'PM' or hM2[2] == 'pm') and int(hM2[0]) < 12 ) ):
 		hM2[0] = int(hM2[0])+12 #convert the end time hours to a 24 hr style number
 
 	#print the hour and minutes input used for calcuation for verification
